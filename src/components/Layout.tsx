@@ -13,6 +13,9 @@ const Layout = ({ children }: { children: ReactNode }) => {
         <Link href="/dev">Dev</Link>
       </nav>
       <main style={{ padding: '1rem' }}>{children}</main>
+      <footer style={{ padding: '1rem', borderTop: '1px solid #ccc', textAlign: 'center' }}>
+        © 2025 My Website. All rights reserved.
+      </footer>
     </div>
   );
 };
