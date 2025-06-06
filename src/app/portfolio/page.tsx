@@ -19,7 +19,7 @@ export default function Portfolio() {
     <div>
       <h1>Portfolio</h1>
       {entries.map((e, i) => (
-        <section key={i} style={{ marginBottom: '1rem' }}>
+        <section key={i}>
           <h3>{e.title}</h3>
           <p>{e.content}</p>
         </section>

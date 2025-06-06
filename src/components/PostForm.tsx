@@ -20,16 +20,16 @@ const PostForm = ({ type }: { type: 'blog' | 'portfolio' }) => {
   };
 
   return (
-    <div style={{ marginBottom: '2rem' }}>
+    <div className="post-form">
       <h3>Add {type} entry</h3>
-      <div>
+      <div className="form-field">
         <input
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           placeholder="title"
         />
       </div>
-      <div>
+      <div className="form-field">
         <textarea
           value={content}
           onChange={(e) => setContent(e.target.value)}

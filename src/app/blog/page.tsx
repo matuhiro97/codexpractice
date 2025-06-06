@@ -19,7 +19,7 @@ export default function Blog() {
     <div>
       <h1>Blog</h1>
       {entries.map((e, i) => (
-        <article key={i} style={{ marginBottom: '1rem' }}>
+        <article key={i}>
           <h3>{e.title}</h3>
           <p>{e.content}</p>
         </article>
